@@ -1,6 +1,6 @@
 <footer class="d-print-none">
   <div class="container">
-    <div class="row">
+    <div class="row" style="color: black">
       {% if site.social %}
         <div class="col-lg">
           <ul class="list-inline">
@@ -19,56 +19,14 @@
               <li class="list-inline-item">
                 <a href="https://twitter.com/{{ site.social.twitter }}">
                   <span class="fa-stack fa-lg">
-                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-circle fa-stack-2x" style="color: black;"></i>
                     <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
                   </span>
                 </a>
               </li>
             {% endif %}
 
-            {% if site.social.mastodon %}
-              <li class="list-inline-item">
-                <a rel="me" href="{{ site.social.mastodon }}">
-                  <span class="fa-stack fa-lg">
-                    <i class="fas fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-mastodon fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-            {% endif %}
 
-            {% if site.social.facebook %}
-              <li class="list-inline-item">
-                <a red="me" href="{{ site.social.facebook }}">
-                  <span class="fa-stack fa-lg">
-                    <i class="fas fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-            {% endif %}
-
-            {% if site.social.github %}
-              <li class="list-inline-item">
-                <a href="https://github.com/{{ site.social.github }}">
-                  <span class="fa-stack fa-lg">
-                    <i class="fas fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-            {% endif %}
-
-            {% if site.archive_permalink %}
-              <li class="list-inline-item">
-                <a href="{{ '/feed.xml' | absolute_url }}">
-                  <span class="fa-stack fa-lg">
-                    <i class="fas fa-circle fa-stack-2x"></i>
-                    <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-            {% endif %}
           </ul>
         </div>
       {% endif %}
@@ -82,7 +40,11 @@
               {% for item in col.links %}
                 <li>
                   <i class="fa-li fa fa-chevron-circle-right"></i>
-                  <a href="{{ item.href | relative_url }}"{% if item.new_window %} target="_blank"{% endif %}>{{ item.text }}</a>
+                  {% if item.href %}
+                    <a href="{{ item.href | relative_url }}"{% if item.new_window %} target="_blank"{% endif %} style="color: black;">{{ item.text }}</a>
+                  {% else %}
+                    <p>{{ item.text }}</p>
+                  {% endif %}
                 </li>
               {% endfor %}
             </ul>
@@ -91,9 +53,9 @@
       {% endfor %}
     </div>
 
-    <div class="small mt-2">
+    <div class="small mt-2" style="color: black;">
       {% if site.author %}
-        <p>© {{ site.author }}</p>
+        <p style="color: black;">© {{ site.author }}</p>
       {% endif %}
       {% if site.data.footer.license %}
         {{ site.data.footer.license | markdownify }}
@@ -105,7 +67,7 @@
           {% assign branch = 'main' %}
         {% endif %}
         <p>
-          <a href="{{ site.github.repository_url }}/edit/{{ branch }}/{{ page.path }}">
+          <a style="color: black;" href="{{ site.github.repository_url }}/edit/{{ branch }}/{{ page.path }}">
             <i class="fas fa-edit"></i> Edit this page
           </a>
         </p>
