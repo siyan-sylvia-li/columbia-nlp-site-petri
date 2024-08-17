@@ -3,22 +3,28 @@ layout: default
 description: Template for team page.
 ---
 
-{% if page.team and site.data[page.team] %}
-  {% assign team = site.data[page.team] %}
-{% elsif site.data.team %}
-  {% assign team = site.data.team %}
+{% if page.phds and site.data[page.phds] %}
+  {% assign phds = site.data[page.phds] %}
+{% elsif site.data.phds %}
+  {% assign phds = site.data.phds %}
 {% endif %}
 
-{% if page.team_prof and site.data[page.team_prof] %}
-  {% assign team_prof = site.data[page.team_prof] %}
-{% elsif site.data.team_prof %}
-  {% assign team_prof = site.data.team_prof %}
+{% if page.profs and site.data[page.profs] %}
+  {% assign profs = site.data[page.profs] %}
+{% elsif site.data.profs %}
+  {% assign profs = site.data.profs %}
+{% endif %}
+
+{% if page.researchers and site.data[page.researchers] %}
+  {% assign researchers = site.data[page.researchers] %}
+{% elsif site.data.researchers %}
+  {% assign researchers = site.data.researchers %}
 {% endif %}
 
 {{ content }}
 
-<h1 class="d-flex">Faculty (Computer Science)</h1>
-{% for member in team_prof %}
+<h1 class="d-flex">Faculty</h1>
+{% for member in profs %}
   <div class="d-flex team-member">
     <div class="flex-shrink-0 me-3">
       {% if member.image %}
@@ -27,7 +33,7 @@ description: Template for team page.
     </div>
     <div>
       {% if member.url %}
-      <a href="{{ member.url }}">
+      <a href="{{ member.url }}" target="_blank">
         <h5 id="{{ member.name | strip | url_encode }}">
           {{ member.name }}
           {% if member.role %}
@@ -46,115 +52,61 @@ description: Template for team page.
 
       {{ member.description | markdownify }}
 
-      <ul class="list-inline">
-        {% if member.orcid %}
-          <li class="list-inline-item">
-            <a href="https://orcid.org/{{ member.orcid }}"><i class="ai ai-orcid"></i></a>
-          </li>
-        {% endif %}
-
-        {% if member.researchgate %}
-          <li class="list-inline-item">
-            <a href="https://researchgate.net/profile/{{ member.researchgate }}"><i class="ai ai-researchgate"></i></a>
-          </li>
-        {% endif %}
-        
-        {% if member.googlescholar %}
-          <li class="list-inline-item">
-            <a href="https://scholar.google.com/citations?user={{ member.googlescholar }}"><i class="ai ai-google-scholar"></i></a>
-          </li>
-        {% endif %}
-
-        {% if member.twitter %}
-          <li class="list-inline-item">
-            <a href="https://twitter.com/{{ member.twitter }}"><i class="fab fa-twitter"></i></a>
-          </li>
-        {% endif %}
-
-        {% if member.mastodon %}
-          <li class="list-inline-item">
-            <a href="{{ member.mastodon }}"><i class="fab fa-mastodon"></i></a>
-          </li>
-        {% endif %}
-
-        {% if member.github %}
-          <li class="list-inline-item">
-            <a href="https://github.com/{{ member.github }}"><i class="fab fa-github"></i></a>
-          </li>
-        {% endif %}
-
-        {% if member.email %}
-          <li class="list-inline-item">
-            <a href="mailto:{{ member.email }}"><i class="far fa-envelope"></i></a>
-          </li>
-        {% endif %}
-      </ul>
     </div>
   </div>
 {% endfor %}
 
 <h1 class="d-flex">Researchers</h1>
-
-{% for member in team %}
-  <div class="d-flex team-member">
-    <div class="flex-shrink-0 me-3">
-      {% if member.image %}
-        <img src="{{ member.image | relative_url }}" alt="{{ member.name }}">
-      {% endif %}
-    </div>
-    <div>
+{% for member in researchers %}
+<div class="d-flex">
+  <div>
+    {% if member.url %}
+    <a href="{{ member.url }}" target="_blank">
       <h5 id="{{ member.name | strip | url_encode }}">
         {{ member.name }}
         {% if member.role %}
           <small class="text-muted">| {{ member.role }}</small>
         {% endif %}
       </h5>
-
-      {{ member.description | markdownify }}
-
-      <ul class="list-inline">
-        {% if member.orcid %}
-          <li class="list-inline-item">
-            <a href="https://orcid.org/{{ member.orcid }}"><i class="ai ai-orcid"></i></a>
-          </li>
+    </a>
+    {% else %}
+      <h5 id="{{ member.name | strip | url_encode }}">
+        {{ member.name }}
+        {% if member.role %}
+          <small class="text-muted">| {{ member.role }}</small>
         {% endif %}
+      </h5>
+    {% endif %}
 
-        {% if member.researchgate %}
-          <li class="list-inline-item">
-            <a href="https://researchgate.net/profile/{{ member.researchgate }}"><i class="ai ai-researchgate"></i></a>
-          </li>
-        {% endif %}
-        
-        {% if member.googlescholar %}
-          <li class="list-inline-item">
-            <a href="https://scholar.google.com/citations?user={{ member.googlescholar }}"><i class="ai ai-google-scholar"></i></a>
-          </li>
-        {% endif %}
-
-        {% if member.twitter %}
-          <li class="list-inline-item">
-            <a href="https://twitter.com/{{ member.twitter }}"><i class="fab fa-twitter"></i></a>
-          </li>
-        {% endif %}
-
-        {% if member.mastodon %}
-          <li class="list-inline-item">
-            <a href="{{ member.mastodon }}"><i class="fab fa-mastodon"></i></a>
-          </li>
-        {% endif %}
-
-        {% if member.github %}
-          <li class="list-inline-item">
-            <a href="https://github.com/{{ member.github }}"><i class="fab fa-github"></i></a>
-          </li>
-        {% endif %}
-
-        {% if member.email %}
-          <li class="list-inline-item">
-            <a href="mailto:{{ member.email }}"><i class="far fa-envelope"></i></a>
-          </li>
-        {% endif %}
-      </ul>
-    </div>
   </div>
+</div>
 {% endfor %}
+
+<h1 class="d-flex">Ph.D. Students</h1>
+
+<div style="column-count: 2;">
+    {% for member in phds %}
+
+      <div class="d-flex col">
+        {% if member.url %}
+        <a href="{{ member.url }}" target="_blank">
+          <h5 id="{{ member.name | strip | url_encode }}">
+            {{ member.name }}
+            {% if member.role %}
+              <small class="text-muted">| {{ member.role }}</small>
+            {% endif %}
+          </h5>
+        </a>
+        {% else %}
+          <h5 id="{{ member.name | strip | url_encode }}">
+            {{ member.name }}
+            {% if member.role %}
+              <small class="text-muted">| {{ member.role }}</small>
+            {% endif %}
+          </h5>
+        {% endif %}
+      </div>
+    {% endfor %}
+</div>
+
+<h1 class="d-flex">Alumni</h1>

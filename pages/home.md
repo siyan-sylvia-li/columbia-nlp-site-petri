@@ -38,9 +38,9 @@ Areas that we have particular strengths in include:
 - Evaluation of nlp technologies, resources, and human language use
 
 
-The schedule and details for the regular NLP group seminar may be found here. For access to the seminar, please subscribe to the Columbia NLP mailing list or email the organizers.
+The schedule and details for the regular NLP group seminar may be found [here](/events/). For access to the seminar, please subscribe to the Columbia NLP mailing list or email the organizers.
 
 Our research benefits from a cohesive, thriving environment: NLP@CU group members have many internal collaborations, and collaborate closely with other Columbia University researchers in related fields such as databases and machine learning. We have an extensive network of collaborations globally.
 
-To learn more about NLP@CU, visit our Labs, Groups and Projects page.
+To learn more about NLP@CU, visit our [Labs, Groups and Projects page](/labs/).
 

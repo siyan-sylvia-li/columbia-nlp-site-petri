@@ -1,8 +1,9 @@
 ---
 layout: team
-team: team
-team_prof: team_copied
+phds: phd_students
+profs: professors
+researchers: researchers
 title: People
 description: Professors, Researchers, and Students
-permalink: /team/
+permalink: /people/
 ---

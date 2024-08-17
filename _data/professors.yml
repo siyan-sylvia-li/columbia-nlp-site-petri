@@ -1,0 +1,41 @@
+# Professors
+
+- name: Julia Hirschberg
+  role: Professor # Will appear next to name
+  image: assets/theme/images/julia.jpeg # Can be external link
+  description: >
+    Percy K. and Vida L. W. Hudson Professor of Computer Science
+  url: https://www.cs.columbia.edu/~julia/
+
+- name: Kathleen McKeown
+  role: Professor
+  image: assets/theme/images/KathyNW.jpg 
+  description: >
+    Henry and Gertrude Rothschild Professor of Computer Science, Founding Director of Columbia's Data Science Institute
+  url: https://www.cs.columbia.edu/~kathy/
+
+- name: Smaranda Muresan
+  role: Professor, Research Scientist
+  image: assets/theme/images/smara.jpg
+  description: >
+    Research Scientist at Data Science Institute, Adjunct Associate Professor at Department of Computer Science
+  url: https://www.cs.columbia.edu/~smara/
+
+- name: Zhou Yu
+  role: Associate Professor
+  image: assets/theme/images/zhou.jpg
+  description: >
+    Associate Professor, Computer Science Department
+  url: https://www.cs.columbia.edu/~zhouyu/
+
+- name: Daniel Bauer
+  role: Lecturer
+  image: assets/theme/images/dan.jpg
+  description: >
+    Senior Lecturer in Discipline (Natural Language Processing), Department of Computer Science
+  url: https://www.cs.columbia.edu/~bauer/
+
+- name: John Hewitt
+  role: Incoming Assistant Professor
+  image: assets/theme/images/john.png
+  url: https://nlp.stanford.edu/~johnhew/
