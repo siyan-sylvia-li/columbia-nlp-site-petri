@@ -16,4 +16,4 @@ One or more senior researchers and associated students, postdocs, research progr
 Close organization around a common research interest, with an independent agenda and schedule of meetings; each group is associated with one or more funded projects that cut across labs.
 
 ## Projects
-Visit [Labs](labs/) and [People](people/) pages to learn mode about our current grants and projects.
+Visit [Labs](../labs/) and [People](../people/) pages to learn mode about our current grants and projects.
