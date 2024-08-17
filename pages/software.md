@@ -7,12 +7,12 @@ permalink: /software/
 ## Software and Tools
 Software and Tools on this page are available free of charge for educational, research, and in-house uses. For information on commercial use of any of these tools, please contact Columbia Technology Ventures, email: techventures@columbia.edu, phone number: (+1) 212-854-8444.
 
-- [Narrative Summarization Corpus](software/#narrative-summarization-corpus)
-- [Gendered Corpus](software/#gendered-corpus)
-- [Opinionated Claims Corpus](software/#opinionated-claims)
-- [Wikipedia Talk Pages Agreement Corpus](software/#wikipedia-talk-pages-agreement-corpus)
-- [Create Debate Agreement Corpus](software/#create-debate-agreement-corpus)
-- [Sentence Fusion Corpus](software/#sentence-fusion-corpus)
+- [Narrative Summarization Corpus](#narrative-summarization-corpus)
+- [Gendered Corpus](#gendered-corpus)
+- [Opinionated Claims Corpus](#opinionated-claims)
+- [Wikipedia Talk Pages Agreement Corpus](#wikipedia-talk-pages-agreement-corpus)
+- [Create Debate Agreement Corpus](#create-debate-agreement-corpus)
+- [Sentence Fusion Corpus](#sentence-fusion-corpus)
 - Text-to-text generation
 - Quoted Speech Attribution Corpus
 - MADA
