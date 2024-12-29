@@ -21,6 +21,12 @@ description: Template for team page.
   {% assign researchers = site.data.researchers %}
 {% endif %}
 
+{% if page.alumns and site.data[page.alumns] %}
+  {% assign alumns = site.data[page.alumns] %}
+{% elsif site.data.alumns %}
+  {% assign alumns = site.data.alumns %}
+{% endif %}
+
 {{ content }}
 
 <h1 class="d-flex">Faculty</h1>
@@ -82,6 +88,8 @@ description: Template for team page.
 </div>
 {% endfor %}
 
+<br>
+
 <h1 class="d-flex">Ph.D. Students</h1>
 
 <div style="column-count: 2;">
@@ -108,5 +116,30 @@ description: Template for team page.
       </div>
     {% endfor %}
 </div>
+<br>
 
-<h1 class="d-flex">Alumni</h1>
+<h1 class="d-flex">Ph.D. Graduates</h1>
+<div style="column-count: 2;">
+  {% for member in alumns %}
+
+    <div class="d-flex col">
+      {% if member.url %}
+      <a href="{{ member.url }}" target="_blank">
+        <h5 id="{{ member.name | strip | url_encode }}">
+          {{ member.name }}
+          {% if member.role %}
+            <small class="text-muted">| {{ member.role }}</small>
+          {% endif %}
+        </h5>
+      </a>
+      {% else %}
+        <h5 id="{{ member.name | strip | url_encode }}">
+          {{ member.name }}
+          {% if member.role %}
+            <small class="text-muted">| {{ member.role }}</small>
+          {% endif %}
+        </h5>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>

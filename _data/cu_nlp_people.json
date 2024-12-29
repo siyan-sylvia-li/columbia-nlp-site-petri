@@ -1,0 +1,525 @@
+{
+    "Faculty (Computer Science)": [
+        [
+            "Michael Collins",
+            "https://www.cs.columbia.edu/~mcollins"
+        ],
+        [
+            "Julia Hirschberg",
+            "https://www.cs.columbia.edu/~julia"
+        ],
+        [
+            "Kathy McKeown",
+            "https://www.cs.columbia.edu/~kathy"
+        ],
+        [
+            "Smaranda Muresan",
+            "https://www.cs.columbia.edu/~smara/"
+        ],
+        [
+            "Daniel Bauer",
+            "https://www.cs.columbia.edu/~bauer"
+        ],
+        [
+            "Zhou Yu",
+            "https://www.cs.columbia.edu/~zhouyu"
+        ]
+    ],
+    "Faculty (Biomedical Informatics)": [
+        [
+            "No\u00e9mie Elhadad",
+            "http://people.dbmi.columbia.edu/noemie/"
+        ],
+        [
+            "Carol Friedman",
+            "http://www.dbmi.columbia.edu/~friedma/"
+        ]
+    ],
+    "Ph.D. Students": [
+        [
+            "Emily Allaway",
+            "https://www.cs.columbia.edu/~eallaway"
+        ],
+        [
+            "Tuhin Chakrabarty",
+            "https://tuhinjubcse.github.io"
+        ],
+        [
+            "Max Chen",
+            "https://www.cs.columbia.edu/~maxchen"
+        ],
+        [
+            "Faisal Ladhak",
+            "https://www.cs.columbia.edu/~faisal/"
+        ],
+        [
+            "Fei-Tzin Lee",
+            "https://feitzin.github.io"
+        ],
+        [
+            "Arkadiy Saakyan",
+            "https://asaakyan.github.io"
+        ],
+        [
+            "Weiyan Shi",
+            "https://sites.google.com/ucdavis.edu/wyshi/"
+        ],
+        [
+            "Rose Sloan",
+            "http://www.cs.columbia.edu/speech/people.cgi?p=rose"
+        ],
+        [
+            "Melanie Subbiah",
+            "https://www.melaniesubbiah.com"
+        ],
+        [
+            "Elsbeth Turcan",
+            "https://www.linkedin.com"
+        ],
+        [
+            "Morgan Ulinski",
+            "https://www.cs.columbia.edu/~mulinski"
+        ],
+        [
+            "Sky Wang",
+            "https://skywang.me"
+        ],
+        [
+            "Olivia Winn",
+            "https://www.cs.columbia.edu/~olivia"
+        ],
+        [
+            "Qingyang Wu",
+            "https://qywu.github.io/index.html"
+        ],
+        [
+            "Zixiaofan Yang",
+            "https://www.cs.columbia.edu/~brenda"
+        ]
+    ],
+    "Research Scientists (Statistics)": [
+        [
+            "Bob Carpenter",
+            "http://colloquial.com/carp"
+        ]
+    ],
+    "Postdocs": [
+        [
+            "Sarah Ita Levitan",
+            "https://www.cs.columbia.edu/~sarahita"
+        ],
+        [
+            "Efsun Sarioglu Kayi",
+            "https://www.cs.columbia.edu/~efsun"
+        ]
+    ],
+    "Visitors, M.S. students, Programmers": [
+        [
+            "Yan Virin",
+            null
+        ]
+    ],
+    "Ph.D. Graduates": [
+        [
+            "Apoorv Agarwal",
+            "https://www.cs.columbia.edu/~apoorv/Homepage/Home.html"
+        ],
+        [
+            "Tariq Alhindi",
+            "https://www.cs.columbia.edu/~tariq"
+        ],
+        [
+            "Sakhar Alkhereyf",
+            "http://sakhar.co"
+        ],
+        [
+            "Regina Barzilay",
+            "http://www.sls.lcs.mit.edu/~regina"
+        ],
+        [
+            "Daniel Bauer",
+            "https://www.cs.columbia.edu/~bauer"
+        ],
+        [
+            "Fadi Biadsy",
+            "https://www.cs.columbia.edu/~fadi"
+        ],
+        [
+            "Or Biran",
+            "https://www.cs.columbia.edu/~orb"
+        ],
+        [
+            "Sasha Blair-Goldensohn",
+            "https://www.cs.columbia.edu/~sashabg"
+        ],
+        [
+            "Erica Cooper",
+            "https://www.cs.columbia.edu/~ecooper"
+        ],
+        [
+            "Bob Coyne",
+            "https://www.cs.columbia.edu/~coyne"
+        ],
+        [
+            "Andrea Danyluk",
+            "http://www.cs.williams.edu/~andrea/"
+        ],
+        [
+            "Pablo Duboue",
+            "http://www.cs.columbia.edu/~pablo"
+        ],
+        [
+            "Tom Effland",
+            "https://github.com/teffland"
+        ],
+        [
+            "Frank Enos",
+            "https://www.cs.columbia.edu/~frank"
+        ],
+        [
+            "Michael Elhadad",
+            "http://www.cs.bgu.ac.il/~elhadad/"
+        ],
+        [
+            "Noemie Elhadad",
+            "http://www.dbmi.columbia.edu/noemie"
+        ],
+        [
+            "Ahmed El Kholy",
+            "http://www1.ccls.columbia.edu/~akholy"
+        ],
+        [
+            "David Elson",
+            "https://www.cs.columbia.edu/~delson"
+        ],
+        [
+            "David Evans",
+            "https://www.cs.columbia.edu/~devans"
+        ],
+        [
+            "Noura Farra",
+            "https://www.cs.columbia.edu/~noura"
+        ],
+        [
+            "Elena Filatova",
+            "https://www.cs.columbia.edu/~filatova"
+        ],
+        [
+            "Pascale Fung",
+            "http://www.ee.ust.hk/~pascale/"
+        ],
+        [
+            "Michel Galley",
+            "http://www.stanford.edu/~mgalley/"
+        ],
+        [
+            "Agust\u00edn Gravano",
+            "https://www.cs.columbia.edu/~agus"
+        ],
+        [
+            "Weiwei Guo",
+            "http://www.cs.columbia.edu/~weiwei"
+        ],
+        [
+            "Vasileios Hatzivassiloglou",
+            "http://www.hlt.utdallas.edu/~vh/"
+        ],
+        [
+            "Christopher Hidey",
+            "https://www.cs.columbia.edu/~chidey"
+        ],
+        [
+            "Hongyan Jing",
+            "https://www.cs.columbia.edu/~hjing"
+        ],
+        [
+            "Min-Yen Kan",
+            "http://www.comp.nus.edu.sg/~kanmy/"
+        ],
+        [
+            "Christopher Kedzie",
+            "https://www.cs.columbia.edu/~kedzie"
+        ],
+        [
+            "Rivka Levitan",
+            "https://www.cs.columbia.edu/~rlevitan"
+        ],
+        [
+            "Jackson Liscombe",
+            "https://www.cs.columbia.edu/~jaxin"
+        ],
+        [
+            "Wei-Yun Ma",
+            "https://www.cs.columbia.edu/~ma"
+        ],
+        [
+            "Sameer Maskey",
+            "https://www.cs.columbia.edu/~smaskey"
+        ],
+        [
+            "Smaranda Muresan",
+            "https://www.cs.columbia.edu/~smara"
+        ],
+        [
+            "Ani Nenkova",
+            "https://www.cs.columbia.edu/~ani"
+        ],
+        [
+            "Jessica Ouyang",
+            "https://www.cs.columbia.edu/~ouyangj"
+        ],
+        [
+            "Shimei Pan",
+            "https://researcher.ibm.com/researcher/view.php?person=us-shimei"
+        ],
+        [
+            "C\u00e9cile Paris",
+            "http://www.ict.csiro.au/staff/Cecile.Paris/"
+        ],
+        [
+            "Kristen Parton",
+            "https://www.cs.columbia.edu/~kristen"
+        ],
+        [
+            "Yves Petinot",
+            "https://www.cs.columbia.edu/~ypetinot"
+        ],
+        [
+            "Vinodkumar Prabhakaran",
+            "https://www.cs.columbia.edu/~vinod"
+        ],
+        [
+            "Dragomir Radev",
+            "http://www.si.umich.edu/~radev/"
+        ],
+        [
+            "Mohammad Sadegh Rasooli",
+            "https://www.cs.columbia.edu/~rasooli"
+        ],
+        [
+            "Jacques Robin",
+            "http://www.di.ufpe.br/~jr/"
+        ],
+        [
+            "Andrew Rosenberg",
+            "https://www.cs.columbia.edu/~amaxwell"
+        ],
+        [
+            "Sara Rosenthal",
+            "https://www.cs.columbia.edu/~sara"
+        ],
+        [
+            "Carl Sable",
+            "https://www.cs.columbia.edu/~sable"
+        ],
+        [
+            "Wael Salloum",
+            "http://www.wsalloum.com/"
+        ],
+        [
+            "Victor Soto",
+            "https://www.cs.columbia.edu/~vsoto"
+        ],
+        [
+            "Barry Schiffman",
+            "https://www.cs.columbia.edu/~bschiff"
+        ],
+        [
+            "James Shaw",
+            "https://www.cs.columbia.edu/~shaw"
+        ],
+        [
+            "Eric Siegel",
+            "https://www.cs.columbia.edu/~evs"
+        ],
+        [
+            "Frank Smadja",
+            "http://smadja.us"
+        ],
+        [
+            "Karl Stratos",
+            "https://www.cs.columbia.edu/~stratos"
+        ],
+        [
+            "Kapil Thadani",
+            "https://www.cs.columbia.edu/~kapil"
+        ],
+        [
+            "Ursula Wolz",
+            "http://www.tcnj.edu/~wolz/"
+        ],
+        [
+            "Boyi Xie",
+            ""
+        ]
+    ],
+    "Researchers and Postdocs": [
+        [
+            "Stefan Benus",
+            "https://www.cs.columbia.edu/~sbenus"
+        ],
+        [
+            "Sam Brody",
+            "http://www.dbmi.columbia.edu/~sab7012/"
+        ],
+        [
+            "John Chen",
+            "https://www.cs.columbia.edu/~jchen"
+        ],
+        [
+            "Shay Cohen",
+            "http://homepages.inf.ed.ac.uk/scohen/"
+        ],
+        [
+            "Mona Diab",
+            "http://www1.ccls.columbia.edu/~mdiab/"
+        ],
+        [
+            "Vasileios Hatzivassiloglou",
+            "http://www.hlt.utdallas.edu/~vh/"
+        ],
+        [
+            "Nizar Habash",
+            "http://www.nizarhabash.com"
+        ],
+        [
+            "Gabriel Illouz",
+            "http://www.limsi.fr/Individu/gabrieli/Recherche/index-en.html"
+        ],
+        [
+            "Martin Jansche",
+            "https://www.cs.columbia.edu/~jansche"
+        ],
+        [
+            "Judith Klavans",
+            "https://www.cs.columbia.edu/~klavans"
+        ],
+        [
+            "Alexander Koller",
+            "https://www.cs.columbia.edu/~koller"
+        ],
+        [
+            "Elena Musi",
+            "https://www.linkedin.com/in/elena-musi-ph-d-4bb743126/"
+        ],
+        [
+            "Owen Rambow",
+            "https://www.cs.columbia.edu/~rambow"
+        ],
+        [
+            "Alla Rozovskaya",
+            "https://sites.google.com/site/allamrozovskaya/"
+        ],
+        [
+            "Simone Teufel",
+            "http://www.cl.cam.ac.uk/users/sht25/"
+        ],
+        [
+            "Jennifer Venditti",
+            "https://www.cs.columbia.edu/~jjv"
+        ],
+        [
+            "Nina Wacholder",
+            "http://www.scils.rutgers.edu/~nina/nina.html"
+        ],
+        [
+            "Hong Yu",
+            null
+        ]
+    ],
+    "Others": [
+        [
+            "Muhammad Abdul-Mageed",
+            "http://mumageed.blogspot.com/"
+        ],
+        [
+            "Jacob Andreas",
+            "http://jacobandreas.net"
+        ],
+        [
+            "Yassine Benajiba",
+            "http://www1.ccls.columbia.edu/~ybenajiba/"
+        ],
+        [
+            "David Prager Branner",
+            "http://brannerchinese.com"
+        ],
+        [
+            "Marine Carpuat",
+            "http://www1.ccls.columbia.edu/~marine"
+        ],
+        [
+            "Nishi Cestero",
+            "http://www.cs.columbia.edu/speech/people.cgi?p=nishi"
+        ],
+        [
+            "Yin-Wen Chang",
+            "http://people.csail.mit.edu/yinwen/"
+        ],
+        [
+            "Jenny Finkel",
+            "http://nlp.stanford.edu/jrfinkel/"
+        ],
+        [
+            "Gaurav Gite",
+            "http://gitegaurav.com/"
+        ],
+        [
+            "Melody Ju",
+            "https://www.linkedin.com/in/melody-ju-64bb1b65/"
+        ],
+        [
+            "Kevin Lerman",
+            "https://www.cs.columbia.edu/~klerman"
+        ],
+        [
+            "Alexander Rush",
+            "http://people.csail.mit.edu/srush/"
+        ],
+        [
+            "Yves Scherrer",
+            "http://www.latl.unige.ch/personal/yvesscherrer/"
+        ],
+        [
+            "Andrew Schlaikjer",
+            "http://www.cs.cmu.edu/~hazen/"
+        ],
+        [
+            "Advaith Siddharthan",
+            "https://www.cs.columbia.edu/~as372"
+        ],
+        [
+            "Sergey Sigelman",
+            "https://www.cs.columbia.edu/~ss1792"
+        ],
+        [
+            "Lokesh Shrestha",
+            "https://www.cs.columbia.edu/~lokesh"
+        ],
+        [
+            "David Suendermann",
+            "http://suendermann.com/su/"
+        ],
+        [
+            "Stephen Wan",
+            "https://www.cs.columbia.edu/~swan1"
+        ],
+        [
+            "Gengyu Wang",
+            "http://wanggengyu.com/"
+        ],
+        [
+            "William Y. Wang",
+            "http://www.cs.cmu.edu/~yww/"
+        ],
+        [
+            "Brian Whitman",
+            "http://www.media.mit.edu/~bwhitman"
+        ],
+        [
+            "Jen-Yuan Yeh",
+            null
+        ]
+    ],
+    "Some pictures": []
+}
