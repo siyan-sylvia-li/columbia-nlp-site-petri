@@ -54,92 +54,163 @@ Described in Automatically Inferring Gender Associations from Language. Online a
 
 ---
 
-#### Opinionated Claims 
+#### Opinionated Claims Corpus
 Developed by Sara Rosenthal and Kathleen McKeown
 
 Described in Detecting Opinionated Claims in Online Discussions. Wikipedia and LiveJournal. Sentence level annotations of opinionated claims and phrase based sentiment.
 
-[**Download**]()
+[**Download**](http://www.cs.columbia.edu/nlp/tools/opinionated_claims/claims.tar.gz)
+
 ---
 
 #### Wikipedia Talk Pages Agreement Corpus
+Developed by Sara Rosenthal, Jacob Andreas, and Kathleen McKeown
 
-[**Download**]()
+Post-level agreement annotations for conversational analysis.
+
+[**Download**](http://www.cs.columbia.edu/nlp/tools/agreement/create_debate.tar.gz)
+
 ---
 
 #### Create Debate Agreement Corpus
+Developed by Sara Rosenthal and Kathleen McKeown
 
-[**Download**]()
+Sentence-level agreement annotations from discussion threads.
+
+[**Download**](http://www.cs.columbia.edu/nlp/tools/agreement/agreement_annotations.tar.gz)
+
 ---
 
 #### Sentence Fusion Corpus
+Developed by Kathleen McKeown, Sara Rosenthal, Kapil Thadani, and Coleman Moore
 
-[**Download**]()
+Resource for text consolidation research.
+
+[**Download**](http://www.cs.columbia.edu/nlp/tools/fusion/fusion.tar.gz)
+
 ---
 
-#### Text-to-text generation
+#### Text-to-text Generation
+Developed by Kapil Thadani and Kathleen McKeown
 
-[**GitHub Repository**]()
+Software for learning compression and fusion models.
+
+[**GitHub Repository**](https://github.com/grimpil/dissertation)
+
 ---
 
 #### Quoted Speech Attribution Corpus
+Developed by David K. Elson
 
-[**Licensing Agreement**]()
+Over 3,000 instances of quoted speech from 6 works of 19th and 20th century literature. Funded by NSF IIS-0935360.
+
+[**Licensing Agreement**](https://secure.nouvant.com/columbia/technology/proxy66/license/344)
+
 ---
 
 #### MADA
+Developed by Nizar Habash and Owen Rambow
 
-[**More**]()
+Morphological annotation tool for Modern Standard Arabic.
+
+[**More**](http://www.cs.columbia.edu/~rambow/software-downloads/MADA_Distribution.html)
+
 ---
 
 #### LCseg
+Developed by Michel Galley
 
-[**Licensing Agreement**]()
+Domain-independent discourse segmenter based on lexical cohesion.
+
+[**Licensing Agreement**](http://www.cs.columbia.edu/nlp/licenses/LCSegLicenseDownload.html)
+
 ---
 
 #### LexChainer
+Developed by Michel Galley
 
-[**Licensing Agreement**]()
+Locates semantically connected terms in unrestricted documents.
+
+[**Licensing Agreement**](http://www.cs.columbia.edu/nlp/licenses/LexChainerLicenseDownload.html)
+
 ---
 
 #### LinkIT
 
-[**Licensing Agreement**]()
+Tool for identifying and relating noun phrases within a document.
+
+[**Licensing Agreement**](http://www.cs.columbia.edu/nlp/licenses/LinkITLicenseDownload.html)
+
 ---
 
 #### Centrifuser
+Developed by Min-Yen Kan
 
-[**Licensing Agreement**]()
+Domain- and genre-specific multidocument summarization system focusing on healthcare documents.
+
+[**Licensing Agreement**](http://www.cs.columbia.edu/nlp/licenses/centrifuserLicenseDownload.html)
+
 ---
 
 #### Annotated Bibliography Corpus
+Developed by Min-Yen Kan
 
-[**Licensing Agreement**]()
+2000 annotated bibliography entries in XML format with semantic annotations.
+
+[**Licensing Agreement**](http://www.cs.columbia.edu/nlp/licenses/annotatedBibliographyCorpusLicenseDownload.html)
+
 ---
 
 #### FUF
+Developed by Michael Elhadad
 
-[**Download**]()
+Functional Unification Formalism language.
+
+[**Download**](ftp://ftp.cs.columbia.edu/pub/nlp/fuf-5.3.tar.gz)
+
 ---
 
 #### CFUF
+Developed by Michael Elhadad and Mark Kharitonov
 
-[**More**]()
+Graph-based implementation of the FUF language implemented in C and embedded within a Scheme interpreter.
+
+[**More**](http://www.cs.bgu.ac.il/~elhadad/research.html)
 
 ---
 
 #### Surge
+Developed by Michael Elhadad and Jacques Robin
+
+Syntactic realization grammar for text generation.
+
+[**Download**](ftp://ftp.cs.columbia.edu/pub/nlp/surge.tar.gz)
 
 ---
 
 #### CREP
+Developed by Duford
+
+Regular expression tool for identifying linguistic patterns.
+
+[**Licensing Agreement**](http://www.cs.columbia.edu/nlp/licenses/CREPLicenseDownload.html)
 
 ---
 
 #### Segmenter
+Developed by Min-Yen Kan
+
+Text segmentation program.
+
+[**Licensing Agreement**](http://www.cs.columbia.edu/nlp/licenses/segmenterLicenseDownload.html)
 
 ---
 
 #### Verber
+Developed by Min-Yen Kan, Judith Klavans, and Kathleen McKeown
+
+Groups semantically associated verbs together.
+
+[**Licensing Agreement**](http://www.cs.columbia.edu/nlp/licenses/verberLicenseDownload.html)
 
 ---

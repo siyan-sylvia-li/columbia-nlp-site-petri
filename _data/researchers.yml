@@ -1,4 +1,17 @@
 # File for all the researchers
 
 - name: Bob Carpenter
-  role: Researcher (Statistics)
+  role: Research Scientist (Statistics)
+
+- name: Sarah Ita Levitan
+  role: Postdoc
+
+- name: Efsun Sarioglu Kayi
+  role: Postdoc
+
+- name: Noémie Elhadad
+  role: Professor (Biomedical Informatics)
+  url: http://www.dbmi.columbia.edu/noemie
+
+- name: Carol Friedman
+  role: Professor (Biomedical Informatics)
