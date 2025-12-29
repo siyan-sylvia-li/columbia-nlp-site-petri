@@ -16,24 +16,24 @@ Here is an incomplete list of software and tools Columbia NLP has developed.
 
 - [Narrative Summarization Corpus](#narrative-summarization-corpus)
 - [Gendered Corpus](#gendered-corpus)
-- [Opinionated Claims Corpus](#opinionated-claims)
+- [Opinionated Claims Corpus](#opinionated-claims-corpus)
 - [Wikipedia Talk Pages Agreement Corpus](#wikipedia-talk-pages-agreement-corpus)
 - [Create Debate Agreement Corpus](#create-debate-agreement-corpus)
 - [Sentence Fusion Corpus](#sentence-fusion-corpus)
-- Text-to-text generation
-- Quoted Speech Attribution Corpus
-- MADA
-- LCseg
-- LexChainer
-- LinkIT
-- Centrifuser
-- Annotated Bibliography Corpus
-- FUF
-- CFUF
-- Surge
-- CREP
-- Segmenter
-- Verber
+- [Text-to-text Generation](#text-to-text-generation)
+- [Quoted Speech Attribution Corpus](#quoted-speech-attribution-corpus)
+- [MADA](#mada)
+- [LCseg](#lcseg)
+- [LexChainer](#lexchainer)
+- [LinkIT](#linkit)
+- [Centrifuser](#centrifuser)
+- [Annotated Bibliography Corpus](#annotated-bibliography-corpus)
+- [FUF](#fuf)
+- [CFUF](#cfuf)
+- [Surge](#surge)
+- [CREP](#crep)
+- [Segmenter](#segmenter)
+- [Verber](#verber)
 
 ---
 #### Narrative Summarization Corpus
